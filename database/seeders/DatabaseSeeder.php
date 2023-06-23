@@ -16,12 +16,12 @@ class DatabaseSeeder extends Seeder
         DB::table('produtos')->insert([
         'name' => 'Camiseta',
         'price' => 59.9,
-        'quantily' => 20,
+        'quantity' => 20,
        ],
        [
         'name' => 'Boné',
         'price' => 25,
-        'quantily' => 42,
+        'quantity' => 42,
        ]);
     }
 }

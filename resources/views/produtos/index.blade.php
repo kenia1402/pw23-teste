@@ -13,6 +13,9 @@
     </div>
 @endif
 
+<form action="{{ route('produtos') }}" method="post">
+    @csrf
+    <input type="text" name="">
 <table border="1" style="border-color:rgb(52, 214, 87)">
     <tr>
         <th>Nome</th>
